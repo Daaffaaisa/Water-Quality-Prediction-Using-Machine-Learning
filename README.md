@@ -28,6 +28,7 @@ Analyzed water quality data spanning from 1989 to 2019 across 5 monitoring stati
 Feature importance analysis reveals that Water Temperature dominates the model's decision-making process, contributing **28.5%** to the predictions. The peak summer months create the highest hypoxia risk windows.
 
 ![Feature Importance](Images/viz_8.png)
+
 *(Insight: Month/Season also heavily influence the risk [15.9%]. Monitoring schedules should be heavily seasonal, not uniformly spread year-round).*
 
 ### 2. Model Performance: ROC-AUC 0.84
