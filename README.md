@@ -61,6 +61,6 @@ Of the 1,519 valid observations, 26.9% fell below the safe 5 mg/L threshold. The
 ```
 
 ## 🚀 How to Run
-1. Clone this repository: git clone `https://github.com/yourusername/water-quality-hypoxia.git`
+1. Clone this repository: `git clone https://github.com/Daaffaaisa/Water-Quality-Prediction-Using-Machine-Learning.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the Jupyter Notebook in the notebooks/ directory to view the modeling pipeline.
