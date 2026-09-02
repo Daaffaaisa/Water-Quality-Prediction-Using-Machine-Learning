@@ -55,7 +55,7 @@ Of the 1,519 valid observations, 26.9% fell below the safe 5 mg/L threshold. The
 │   └── Water_Quality.csv              # Original 31-year monitoring dataset
 ├── images/                            # Evaluation metrics & EDA charts
 ├── notebooks/
-│   └── UjiCoba_Improved_final.ipynb   # Main Data Cleaning & Modeling notebook
+│   └── Water_Quality.ipynb            # Main Data Cleaning & Modeling notebook
 ├── requirements.txt                   # Dependencies
 └── README.md
 ```
