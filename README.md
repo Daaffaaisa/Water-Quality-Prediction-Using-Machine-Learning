@@ -27,19 +27,19 @@ Analyzed water quality data spanning from 1989 to 2019 across 5 monitoring stati
 ### 1. Water Temperature is the Strongest Predictor
 Feature importance analysis reveals that Water Temperature dominates the model's decision-making process, contributing **28.5%** to the predictions. The peak summer months create the highest hypoxia risk windows.
 
-![Feature Importance](images/viz_8.png)
+![Feature Importance](Images/viz_8.png)
 *(Insight: Month/Season also heavily influence the risk [15.9%]. Monitoring schedules should be heavily seasonal, not uniformly spread year-round).*
 
 ### 2. Model Performance: ROC-AUC 0.84
 The Random Forest model achieved an impressive **ROC-AUC score of 0.84**, proving its reliability in distinguishing between Safe and At-Risk conditions without direct oxygen measurements.
 
-![ROC and Confusion Matrix](images/viz_7.png)
+![ROC and Confusion Matrix](Images/viz_7.png)
 *(Insight: The model successfully acts as a retroactive screening tool to fill the 35.9% blind spot in historical data).*
 
 ### 3. The 5 mg/L Danger Threshold
 Of the 1,519 valid observations, 26.9% fell below the safe 5 mg/L threshold. The scatter pattern below confirms the strong inverse relationship between rising water temperatures and collapsing oxygen levels.
 
-![DO vs Water Temperature](images/viz_4.png)
+![DO vs Water Temperature](Images/viz_4.png)
 *(Insight: Freshwater zones showed significantly thinner oxygen margins, sitting dangerously close to the 5 mg/L threshold compared to saline zones).*
 
 ---
